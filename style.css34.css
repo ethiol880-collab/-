@@ -1,0 +1,86 @@
+/* style.css ፋይል ውስጥ ያስቀምጡ */
+
+/* 1. መነሻ ቅንብር */
+body {
+    font-family: Arial, sans-serif; /* ወይም የፈለጉት የጽሑፍ አይነት */
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 2. የራስጌ (Header) ዲዛይን */
+header {
+    background-color: #004d99; /* ጥቁር ሰማያዊ */
+    color: rgb(143, 66, 66);
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+/* 3. ዋናው የመግቢያ ክፍል (Hero Section) ዲዛይን */
+.hero-section {
+    background-color: #e6f2ff; /* የሳሳ ሰማያዊ ዳራ */
+    padding: 100px 40px;
+    text-align: center;
+}
+
+.hero-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #004d99;
+}
+
+/* 4. 'Learn More' (የበለጠ ይወቁ) የሚለው ቁልፍ (Button) ዲዛይን */
+.btn {
+    display: inline-block;
+    background-color: #ffaa00; /* ብርቱካናማ ቀለም */
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #cc8800; /* ሲነካ ቀለሙ እንዲለወጥ */
+}
+
+/* 5. ይዘት ክፍሎች (About, Vision, Contact) አጠቃላይ ዲዛይን */
+.content-section {
+    padding: 60px 40px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.content-section h3 {
+    color: #004d99;
+    border-bottom: 2px solid #ffaa00;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+/* 6. ግርጌ (Footer) ዲዛይን */
+footer {
+    background-color: #333;
+    color: #bbb;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
